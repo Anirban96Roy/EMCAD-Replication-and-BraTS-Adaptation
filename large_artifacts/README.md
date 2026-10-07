@@ -70,4 +70,3 @@ Recommended storage for the large binaries:
 - selected GitHub Release assets,
 - Git LFS only when direct versioning of a specific large binary is necessary.
 
-Do not commit the multi-hundred-MB training states or the ~2 GB environment archive into ordinary Git history.
