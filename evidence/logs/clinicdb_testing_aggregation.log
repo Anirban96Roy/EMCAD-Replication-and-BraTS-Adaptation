@@ -1,0 +1,57 @@
+7.8s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.8s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.8s 3 0.00s - to python to disable frozen modules.
+7.8s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.4s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.4s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.4s 7 0.00s - to python to disable frozen modules.
+8.4s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+9.5s 9 Sun Sep 27 11:07:55 2026
+9.5s 10 +-----------------------------------------------------------------------------------------+
+9.5s 11 | NVIDIA-SMI 580.159.04             Driver Version: 580.159.04     CUDA Version: 13.0     |
+9.5s 12 +-----------------------------------------+------------------------+----------------------+
+9.5s 13 | GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+9.5s 14 | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+9.5s 15 |                                         |                        |               MIG M. |
+9.5s 16 |=========================================+========================+======================|
+9.6s 17 |   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |
+9.6s 18 | N/A   55C    P8             12W /   70W |       0MiB /  15360MiB |      0%      Default |
+9.6s 19 |                                         |                        |                  N/A |
+9.6s 20 +-----------------------------------------+------------------------+----------------------+
+9.6s 21 |   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |
+9.6s 22 | N/A   49C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |
+9.6s 23 |                                         |                        |                  N/A |
+9.6s 24 +-----------------------------------------+------------------------+----------------------+
+9.6s 25 
+9.6s 26 +-----------------------------------------------------------------------------------------+
+9.6s 27 | Processes:                                                                              |
+9.6s 28 |  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+9.6s 29 |        ID   ID                                                               Usage      |
+9.6s 30 |=========================================================================================|
+9.6s 31 |  No running processes found                                                             |
+9.6s 32 +-----------------------------------------------------------------------------------------+
+10.0s 33 Python 3.12.13
+104.1s 34 Notebook 1 output: /kaggle/input/notebooks/anirbanroysudipto/notebook-1-environment-preparation
+104.1s 35 Environment archive: /kaggle/input/notebooks/anirbanroysudipto/notebook-1-environment-preparation/emcadenv.tar.gz
+104.1s 36 EMCAD archive: /kaggle/input/notebooks/anirbanroysudipto/notebook-1-environment-preparation/EMCAD_prepared.tar.gz
+171.6s 37 emcadenv.tar.gz: OK
+171.6s 38 EMCAD_prepared.tar.gz: OK
+171.6s 39 EMCAD_AUTHOR_COMMIT.txt: OK
+171.6s 40 ClinicDB_author_split_manifest.csv: OK
+171.6s 41 EMCAD_ENVIRONMENT.txt: OK
+171.6s 42 PVT_V2_B2_SHA256.txt: OK
+171.6s 43 Notebook 1 artifacts restored.
+173.2s 44 Python: 3.8.20
+173.2s 45 PyTorch: 1.11.0+cu113
+173.2s 46 CUDA build: 11.3
+173.2s 47 CUDA available: True
+173.2s 48 GPU count: 2
+173.2s 49 GPU 0: Tesla T4
+173.2s 50 NumPy: 1.22.4
+173.2s 51 timm: 0.6.12
+173.2s 52 ptflops: 0.7.2.2
+173.2s 53 Author commit and environment verified.
+173.3s 54 train images=489 masks=489
+173.3s 55 val images=61 masks=61
+173.3s 56 test images=62 masks=62
+173.3s 57 ClinicDB prepared split verified.

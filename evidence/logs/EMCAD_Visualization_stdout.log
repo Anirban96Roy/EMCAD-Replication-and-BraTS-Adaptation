@@ -1,0 +1,83 @@
+Model pvt_v2_b2 backbone: created, param count: 24849856
+Model EMCAD decoder: created, param count: 1913515
+
+BraTS model verification
+Selected checkpoint: /kaggle/working/EMCAD_BraTS_Run1_Part4_State/best_through_epoch150.pth
+Best epoch: 139
+Best validation Dice: 0.8977
+Model parameters: 26764411
+Strict state-dict load: PASS
+BraTS 01/48 BRATS_333: Dice=0.8341, IoU=0.7154, HD95=10.63
+BraTS 02/48 BRATS_037: Dice=0.9006, IoU=0.8191, HD95=2.83
+BraTS 03/48 BRATS_082: Dice=0.9581, IoU=0.9195, HD95=2.24
+BraTS 04/48 BRATS_016: Dice=0.8902, IoU=0.8022, HD95=44.69
+BraTS 05/48 BRATS_099: Dice=0.8836, IoU=0.7915, HD95=27.66
+BraTS 06/48 BRATS_361: Dice=0.9288, IoU=0.8671, HD95=1.73
+BraTS 07/48 BRATS_293: Dice=0.8469, IoU=0.7345, HD95=91.39
+BraTS 08/48 BRATS_129: Dice=0.9339, IoU=0.8759, HD95=3.00
+BraTS 09/48 BRATS_399: Dice=0.9436, IoU=0.8932, HD95=1.73
+BraTS 10/48 BRATS_438: Dice=0.5965, IoU=0.4251, HD95=64.41
+BraTS 11/48 BRATS_474: Dice=0.9298, IoU=0.8689, HD95=24.66
+BraTS 12/48 BRATS_396: Dice=0.9392, IoU=0.8854, HD95=1.41
+BraTS 13/48 BRATS_075: Dice=0.8340, IoU=0.7152, HD95=11.70
+BraTS 14/48 BRATS_429: Dice=0.8387, IoU=0.7222, HD95=26.00
+BraTS 15/48 BRATS_217: Dice=0.9305, IoU=0.8700, HD95=2.83
+BraTS 16/48 BRATS_025: Dice=0.5653, IoU=0.3940, HD95=69.78
+BraTS 17/48 BRATS_234: Dice=0.9482, IoU=0.9015, HD95=1.41
+BraTS 18/48 BRATS_280: Dice=0.9123, IoU=0.8388, HD95=5.39
+BraTS 19/48 BRATS_353: Dice=0.7477, IoU=0.5970, HD95=17.46
+BraTS 20/48 BRATS_378: Dice=0.8849, IoU=0.7935, HD95=19.28
+BraTS 21/48 BRATS_359: Dice=0.5670, IoU=0.3957, HD95=39.45
+BraTS 22/48 BRATS_247: Dice=0.8594, IoU=0.7535, HD95=5.20
+BraTS 23/48 BRATS_135: Dice=0.8807, IoU=0.7869, HD95=4.24
+BraTS 24/48 BRATS_014: Dice=0.9236, IoU=0.8581, HD95=16.77
+BraTS 25/48 BRATS_053: Dice=0.8496, IoU=0.7386, HD95=4.47
+BraTS 26/48 BRATS_188: Dice=0.6890, IoU=0.5256, HD95=31.55
+BraTS 27/48 BRATS_152: Dice=0.8820, IoU=0.7889, HD95=4.12
+BraTS 28/48 BRATS_189: Dice=0.6805, IoU=0.5157, HD95=26.74
+BraTS 29/48 BRATS_173: Dice=0.9417, IoU=0.8897, HD95=2.00
+BraTS 30/48 BRATS_160: Dice=0.6161, IoU=0.4451, HD95=32.65
+BraTS 31/48 BRATS_172: Dice=0.9610, IoU=0.9250, HD95=1.73
+BraTS 32/48 BRATS_370: Dice=0.8891, IoU=0.8003, HD95=3.16
+BraTS 33/48 BRATS_154: Dice=0.9187, IoU=0.8496, HD95=3.00
+BraTS 34/48 BRATS_038: Dice=0.9266, IoU=0.8632, HD95=3.74
+BraTS 35/48 BRATS_284: Dice=0.9363, IoU=0.8802, HD95=3.00
+BraTS 36/48 BRATS_263: Dice=0.9363, IoU=0.8802, HD95=3.61
+BraTS 37/48 BRATS_081: Dice=0.9275, IoU=0.8648, HD95=3.16
+BraTS 38/48 BRATS_204: Dice=0.9172, IoU=0.8471, HD95=2.24
+BraTS 39/48 BRATS_073: Dice=0.8445, IoU=0.7308, HD95=5.10
+BraTS 40/48 BRATS_449: Dice=0.9142, IoU=0.8419, HD95=8.77
+BraTS 41/48 BRATS_221: Dice=0.9212, IoU=0.8540, HD95=4.58
+BraTS 42/48 BRATS_175: Dice=0.6701, IoU=0.5039, HD95=68.17
+BraTS 43/48 BRATS_311: Dice=0.8825, IoU=0.7896, HD95=3.74
+BraTS 44/48 BRATS_162: Dice=0.8633, IoU=0.7595, HD95=39.67
+BraTS 45/48 BRATS_437: Dice=0.8978, IoU=0.8145, HD95=3.61
+BraTS 46/48 BRATS_064: Dice=0.9549, IoU=0.9137, HD95=2.00
+BraTS 47/48 BRATS_385: Dice=0.9332, IoU=0.8747, HD95=50.22
+BraTS 48/48 BRATS_203: Dice=0.9117, IoU=0.8377, HD95=2.45
+
+BraTS regenerated final test
+Macro Dice: 0.8613 ± 0.1079
+Macro IoU: 0.7700 ± 0.1469
+Global Dice: 0.8984
+Global IoU: 0.8155
+HD95: 16.862 ± 21.851
+Empty predictions: 0
+
+metric          regenerated  completed_part5  absolute_difference
+macro_dice      0.861304     0.8613           0.000004
+macro_iou       0.769974     0.7700           0.000026
+global_dice     0.898392     0.8984           0.000008
+global_iou      0.815528     0.8155           0.000028
+hd95_mean       16.862030    16.8620          0.000030
+
+============================================================================
+VISUALIZATION COMPLETE
+============================================================================
+ClinicDB selected run: 2
+ClinicDB 5-run Dice: 0.9412 ± 0.0023
+BraTS macro Dice: 0.8613 ± 0.1079
+BraTS global Dice: 0.8984
+BraTS HD95: 16.862 ± 21.851
+Archive: /kaggle/working/EMCAD_Visualization_Results.zip
+============================================================================

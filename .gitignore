@@ -1,0 +1,29 @@
+# Model checkpoints and large training states
+*.pth
+*.pt
+*.tar
+*.rar
+*.7z
+
+# Large compressed archives are ignored by default
+*.tar.gz
+
+# Keep the small final BraTS prediction archive in the repository
+!results/experiment_2_brats/EMCAD_BraTS_Run1_FINAL_Predictions_v2.tar.gz
+
+# Local environments / caches
+emcadenv/
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Raw datasets
+data/
+datasets/
+raw_data/
+
+# Large-artifact staging directory
+large_artifacts/*
+!large_artifacts/README.md

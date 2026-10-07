@@ -1,0 +1,1 @@
+80711cd1b37ffba12bec6c7a2a7c54efe2315ed635e6d2055fd51c3e909ede4d  pretrained_pth/pvt/pvt_v2_b2.pth

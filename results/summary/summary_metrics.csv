@@ -1,0 +1,13 @@
+experiment,dataset,evaluation,metric,mean,std,notes
+Experiment 1,ClinicDB,Published reference,Dice,0.9521,,PVT-EMCAD-B2
+Experiment 1,ClinicDB,5-run replication,Dice,0.941195,0.002253,
+Experiment 1,ClinicDB,5-run replication,IoU,0.894467,0.003499,
+Experiment 1,ClinicDB,5-run replication,Sensitivity,0.95646,0.003168,
+Experiment 1,ClinicDB,5-run replication,Specificity,0.996195,0.000287,
+Experiment 1,ClinicDB,5-run replication,Precision,0.932555,0.004828,
+Experiment 1,ClinicDB,5-run replication,HD95,10.100069,2.385253,
+Experiment 2,MSD Task01_BrainTumour (BraTS-derived),48-patient macro,Dice,0.8613,0.1079,Whole Tumor
+Experiment 2,MSD Task01_BrainTumour (BraTS-derived),48-patient macro,IoU,0.77,0.1469,Whole Tumor
+Experiment 2,MSD Task01_BrainTumour (BraTS-derived),48-patient macro,HD95,16.862,21.851,Whole Tumor
+Experiment 2,MSD Task01_BrainTumour (BraTS-derived),Global voxel,Dice,0.8984,,Whole Tumor
+Experiment 2,MSD Task01_BrainTumour (BraTS-derived),Global voxel,IoU,0.8155,,Whole Tumor
